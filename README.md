@@ -1,0 +1,3 @@
+# AngularLambda
+
+Run `npm run build:serverless:deploy` to get going...

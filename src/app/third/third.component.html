@@ -1,0 +1,9 @@
+<h1>Second component</h1>
+<h2>This component injects EchoService</h2>
+<form>
+    <label for="name">Name of Engineer</label>
+    <input type="text" class="form-control"  name="name" [(ngModel)]="name">
+    <button type="submit" (click)="searchEngineer()">Search Engineer</button>
+</form>
+
+Response is: <span style="background-color: grey">{{engi | async | json}}</span>
